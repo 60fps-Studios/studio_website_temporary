@@ -56,16 +56,16 @@ export default function Hero60() {
       </div>
       <div className="flex flex-col justify-between md:items-end items-center  gap-10  px-4 md:px-6 ">
         <div className="pl-[151px] md:pl-0">
-          <div className="border-2 border-white  py-1 pl-1 pr-24 lg:pr-44 lg:py-3 lg:pl-3 text-xl md:text-6xl text-black font-bold font-poppins">
-            Absolutist
+          <div className="border-2 border-white  py-1 pl-1 pr-24 lg:pr-44 lg:py-3 lg:pl-3 text-xl md:text-6xl text-red-700 font-bold font-poppins">
+            Unleash your brand's
             <br />
-            addition
+            true potential
           </div>
         </div>
 
         <div className="flex flex-col justify-center items-center pt-5 md:pt-52  md:flex-row md:justify-between md:w-full ">
           <div className="flex justify-center lg:justify-start  items-center text-white font-semibold mb-2  pt-24 pl-[62px] md:pl-0 md:w-2/3 md:pt-0 ">
-            <div className="text-3xl  md:text-3xl"> Simplify</div>
+            {/* <div className="text-3xl  md:text-3xl"> Simplify</div>
             <div className="w-72 md:w-full">
               <FlipWords
                 className="text-3xl md:text-3xl text-red-700 lg:text-red-900"
@@ -76,7 +76,7 @@ export default function Hero60() {
                   "multiplication",
                 ]}
               />
-            </div>
+            </div> */}
           </div>
 
           <div className="flex justify-end   items-center gap-3 md:w-full lg:w-1/3">
