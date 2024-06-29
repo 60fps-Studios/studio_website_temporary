@@ -85,17 +85,10 @@ export default function Services() {
               <div className="mb-4 ">
                 <a className="block group overflow-hidden " href="#0">
                   <img
-                    className="hover:scale-110 transition duration-700 ease-out "
+                    className=" group-hover:scale-110 transition duration-700 ease-out "
                     src="https://www.tactyc.studio/_work/_project/240401_MK_inthebag_A/240401_MK_inthebag_A.png"
                     alt=""
                   />
-                  {/* <Image
-                    className="w-full  object-cover group-hover:scale-110 transition duration-700 ease-out "
-                    src="https://www.tactyc.studio/_work/_project/240401_MK_inthebag_A/240401_MK_inthebag_A.png"
-                    width={2850}
-                    height={2478}
-                    alt="Item 01"
-                  /> */}
                 </a>
               </div>
               <div className="mb-4 ">
@@ -105,13 +98,6 @@ export default function Services() {
                     src="https://www.tactyc.studio/_work/_project/240401_MK_inthebag_A/240401_MK_inthebag_A.png"
                     alt=""
                   />
-                  {/* <Image
-                    className="w-full  object-cover group-hover:scale-110 transition duration-700 ease-out "
-                    src="https://www.tactyc.studio/_work/_project/240401_MK_inthebag_A/240401_MK_inthebag_A.png"
-                    width={2850}
-                    height={2478}
-                    alt="Item 01"
-                  /> */}
                 </a>
               </div>
               <h3 className="grow text-left">
