@@ -213,10 +213,10 @@ export default function Footer() {
         </div>
 
         {/* Bottom area */}
-        <div className=" md:items-center md:justify-between pb-4 md:pb-8 lg:mb-20 ">
-          <div className="lg:-mt-40 lg:-ml-5">
+        <div className=" md:items-center md:justify-between pb-4 md:pb-8 lg:mb-20">
+          <div className="lg:mt-40 ">
             {/* Social links */}
-            <ul className="flex mb-4 md:order-1  md:mb-0 -ml-4 md:-ml-4 lg:ml-1">
+            <ul className="flex mb-4 md:order-1  md:mb-0 ">
               <li>
                 <a
                   className="flex justify-center items-center text-gray-400 hover:text-white transition duration-150 ease-in-out"
@@ -271,7 +271,7 @@ export default function Footer() {
           </div>
 
           {/* Copyrights */}
-          <div className=" lg:ml-0 text-2xl text-gray-400">
+          <div className="ml-1 text-2xl text-gray-400">
             © 60fps.studio. All rights reserved.
           </div>
         </div>
