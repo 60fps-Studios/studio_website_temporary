@@ -98,7 +98,7 @@ export default function Hero60() {
               </span>
             </Link>
 
-            <Link
+            {/*<Link
               className="btn flex items-center border-white text-gray-200 lg:border-black lg:text-gray-800 border-solid border-2 group px-4 "
               href="https://docs.google.com/forms/d/e/1FAIpQLSczBokvaCvrsP-ZNyhOetuy1hMGIYA8-aS5suHVlVBnN6gcLw/viewform"
             >
@@ -106,7 +106,7 @@ export default function Hero60() {
               <span className="tracking-normal text-blue-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2">
                 hey
               </span>
-            </Link>
+            </Link>*/}
             {/* <span className="tracking-normal text-blue-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2">
                   hey
                 </span> */}
