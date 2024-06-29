@@ -59,7 +59,7 @@ export default function Hero() {
             <div data-aos="fade-up" data-aos-delay="200">
               <Link
                 className="btn inline-flex items-center text-gray-900 bg-white hover:bg-gray-100 group"
-                href="/schedule-call"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSczBokvaCvrsP-ZNyhOetuy1hMGIYA8-aS5suHVlVBnN6gcLw/viewform"
               >
                 Schedule A Call
                 <span className="tracking-normal text-blue-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2">
@@ -76,7 +76,7 @@ export default function Hero() {
 
               <Link
                 className="btn inline-flex items-center border-white text-white  border-solid border-2 border-white  group mx-4"
-                href="/schedule-call"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSczBokvaCvrsP-ZNyhOetuy1hMGIYA8-aS5suHVlVBnN6gcLw/viewform"
               >
                 Schedule A Call
                 <span className="tracking-normal text-blue-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2"></span>

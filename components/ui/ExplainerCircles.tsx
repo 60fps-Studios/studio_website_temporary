@@ -1,14 +1,13 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import Link from 'next/link'
-import ModalVideo from '@/components/modal-video'
-import VideoThumb from '@/public/images/BnW_pattern.png'
-import OrbitingCircles from './OrbitingCircles'
+import { useState } from "react";
+import Link from "next/link";
+import ModalVideo from "@/components/modal-video";
+import VideoThumb from "@/public/images/BnW_pattern.png";
+import OrbitingCircles from "./OrbitingCircles";
 
 export default function ExplainerCircles() {
-
-  const [videoModalOpen, setVideoModalOpen] = useState<boolean>(false)
+  const [videoModalOpen, setVideoModalOpen] = useState<boolean>(false);
 
   return (
     <section>
@@ -16,7 +15,9 @@ export default function ExplainerCircles() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-6xl mx-auto text-center ">
-            <h2 className="font-bold text-6xl ">We support early stage startups.</h2>
+            <h2 className="font-bold text-6xl ">
+              We support early stage startups.
+            </h2>
           </div>
 
           {/* Section image */}
@@ -33,12 +34,10 @@ export default function ExplainerCircles() {
 
           </div> */}
 
-
-
-          <div className="h-[500px] items-center relative flex justify-center "
-            data-aos="fade-up">
-
-
+          <div
+            className="h-[500px] items-center relative flex justify-center "
+            data-aos="fade-up"
+          >
             <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
               Our Tools
             </span>
@@ -78,17 +77,15 @@ export default function ExplainerCircles() {
             >
               <Icons.gitHub />
             </OrbitingCircles>
-
           </div>
-
-
-
-
 
           {/* Steps */}
           <div className="relative ">
             {/* Line */}
-            <div className="hidden lg:block absolute top-4 left-40 right-40 mt-px h-0.5 bg-gray-200 -z-10" aria-hidden="true" />
+            <div
+              className="hidden lg:block absolute top-4 left-40 right-40 mt-px h-0.5 bg-gray-200 -z-10"
+              aria-hidden="true"
+            />
 
             {/* Grid */}
             <div className="max-w-sm mx-auto grid gap-12 sm:grid-cols-2 sm:max-w-3xl lg:grid-cols-4 lg:max-w-none items-start">
@@ -98,7 +95,9 @@ export default function ExplainerCircles() {
                   1
                 </div>
                 <h3 className=" font-bold text-2xl">Personalised </h3>
-                <div className="text-gray-500 text-lg px-8">Work is is changing faster than at any other time in history.</div>
+                <div className="text-gray-500 text-lg px-8">
+                  Work is is changing faster than at any other time in history.
+                </div>
               </div>
 
               {/* #2 */}
@@ -107,7 +106,9 @@ export default function ExplainerCircles() {
                   2
                 </div>
                 <h3 className=" font-bold text-2xl">Personalised </h3>
-                <div className="text-gray-500 text-lg px-8">Work is is changing faster than at any other time in history.</div>
+                <div className="text-gray-500 text-lg px-8">
+                  Work is is changing faster than at any other time in history.
+                </div>
               </div>
 
               {/* #3 */}
@@ -116,7 +117,9 @@ export default function ExplainerCircles() {
                   3
                 </div>
                 <h3 className=" font-bold text-2xl">Personalised </h3>
-                <div className="text-gray-500 text-lg px-8">Work is is changing faster than at any other time in history.</div>
+                <div className="text-gray-500 text-lg px-8">
+                  Work is is changing faster than at any other time in history.
+                </div>
               </div>
 
               {/* #4 */}
@@ -125,14 +128,16 @@ export default function ExplainerCircles() {
                   4
                 </div>
                 <h3 className=" font-bold text-2xl">Personalised </h3>
-                <div className="text-gray-500 text-lg px-8">Work is is changing faster than at any other time in history.</div>
+                <div className="text-gray-500 text-lg px-8">
+                  Work is is changing faster than at any other time in history.
+                </div>
               </div>
             </div>
           </div>
 
           {/* CTA */}
           {/* <div className="text-center">
-            <Link className="btn inline-flex items-center text-white bg-gray-900 hover:bg-gray-800 group" href="/schedule-call">
+            <Link className="btn inline-flex items-center text-white bg-gray-900 hover:bg-gray-800 group" href="https://docs.google.com/forms/d/e/1FAIpQLSczBokvaCvrsP-ZNyhOetuy1hMGIYA8-aS5suHVlVBnN6gcLw/viewform">
               Schedule A Call
               <span className="tracking-normal text-blue-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2">
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="16" height="8">
@@ -144,7 +149,7 @@ export default function ExplainerCircles() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 const Icons = {

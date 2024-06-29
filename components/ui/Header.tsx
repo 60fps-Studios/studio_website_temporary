@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 import React, { Fragment, useState, useEffect } from "react";
 import SparklesText from "@/components/ui/SparklesText";
 export default function Header() {
@@ -14,11 +14,9 @@ export default function Header() {
     const handleScroll = () => {
       const st = window.pageYOffset || document.documentElement.scrollTop;
 
-      if (st > lastScrollTop && st > SCROLL_THRESHOLD)
-      {
+      if (st > lastScrollTop && st > SCROLL_THRESHOLD) {
         setIsVisible(false);
-      } else if (st < lastScrollTop || st <= SCROLL_THRESHOLD)
-      {
+      } else if (st < lastScrollTop || st <= SCROLL_THRESHOLD) {
         setIsVisible(true);
       }
 
@@ -35,11 +33,15 @@ export default function Header() {
   }, [lastScrollTop]);
 
   return (
-    <header className={`fixed w-full z-30 transition-all duration-300 ease-in-out font-montserrat  transform ${isVisible ? "translate-y-0" : "-translate-y-full"
-      } ${atTop
-        ? "bg-black bg-opacity-100 text-white"
-        : "bg-white bg-opacity-100 text-black backdrop-blur-sm"
-      }`}>
+    <header
+      className={`fixed w-full z-30 transition-all duration-300 ease-in-out font-montserrat  transform ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      } ${
+        atTop
+          ? "bg-black bg-opacity-100 text-white"
+          : "bg-white bg-opacity-100 text-black backdrop-blur-sm"
+      }`}
+    >
       <div className="max-w-none mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
@@ -58,7 +60,11 @@ export default function Header() {
               )}
             </h1>
           </div> */}
-          <SparklesText text="60fps" sparklesCount={8} className=" font-black md:text-5xl font-cabinet-grotesk " />
+          <SparklesText
+            text="60fps"
+            sparklesCount={8}
+            className=" font-black md:text-5xl font-cabinet-grotesk "
+          />
           {/* Desktop navigation */}
           <nav className="flex grow">
             {/* Desktop sign in links */}
@@ -69,7 +75,7 @@ export default function Header() {
                 </Link>
               </li>
               <li className="ml-4">
-                <Link className="btn inline-flex items-center text-gray-900 bg-white hover:bg-gray-100 group" href="/schedule-call">
+                <Link className="btn inline-flex items-center text-gray-900 bg-white hover:bg-gray-100 group" href="https://docs.google.com/forms/d/e/1FAIpQLSczBokvaCvrsP-ZNyhOetuy1hMGIYA8-aS5suHVlVBnN6gcLw/viewform">
                   Contact Us
 
                 </Link>
@@ -77,16 +83,19 @@ export default function Header() {
               <div className="shrink-0 ">
                 {/* <h1 className="text-3xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-0 pt-2 pl-1 md:pt-1 md:pl-1"> */}
                 {atTop ? (
-
-                  <Link className="btn inline-flex items-center text-gray-900 bg-white hover:bg-gray-100 group" href="/schedule-call">
+                  <Link
+                    className="btn inline-flex items-center text-gray-900 bg-white hover:bg-gray-100 group"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSczBokvaCvrsP-ZNyhOetuy1hMGIYA8-aS5suHVlVBnN6gcLw/viewform"
+                  >
                     Contact Us
-
                   </Link>
                 ) : (
                   (mobileMenuOpen || !atTop) && (
-                    <Link className="btn inline-flex items-center text-white bg-gray-900 hover:bg-gray-100 group" href="/schedule-call">
+                    <Link
+                      className="btn inline-flex items-center text-white bg-gray-900 hover:bg-gray-100 group"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSczBokvaCvrsP-ZNyhOetuy1hMGIYA8-aS5suHVlVBnN6gcLw/viewform"
+                    >
                       Contact Us
-
                     </Link>
                   )
                 )}
@@ -97,5 +106,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
