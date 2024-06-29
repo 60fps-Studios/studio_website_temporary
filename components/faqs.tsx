@@ -5,7 +5,7 @@ export default function Faqs() {
         <div className=" mx-8 md:mx-0 pb-12 md:pb-20 ">
           {/* Section header */}
           <div className=" mx-auto pb-10">
-            <h2 className="text-2xl md:text-7xl font-extrabold font-poppins mb-16">Frequently asked questions</h2>
+            <h2 className="text-5xl md:text-7xl font-extrabold font-poppins mb-16">Frequently asked questions</h2>
           </div>
 
 
