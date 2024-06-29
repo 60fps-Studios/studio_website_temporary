@@ -1,48 +1,51 @@
 export const metadata = {
-  title: 'Home - Talent',
-  description: 'Page description',
-}
+  title: "Home - Talent",
+  description: "Page description",
+};
 
-import Hero from '@/components/hero'
-import HeroPrime from '@/components/HeroPrime'
-import Clients from '@/components/clients'
-import Explainer from '@/components/explainer'
-import Features01 from '@/components/features-01'
-import Features02 from '@/components/features-02'
-import FeaturesPrim from '@/components/featuresPrim'
-import Services from '@/components/services'
-import Pricing from '@/components/pricing'
-import Testimonial from '@/components/testimonial'
-import Faqs from '@/components/faqs'
-import Cta from '@/components/cta'
-import { ContainerScroll, Card } from '@/components/ui/container-scroll-animation';
-import { StickyScroll } from '@/components/ui/StickyScroll'
-import Hero60 from '@/components/Hero60'
-import ClientsMarquee from '@/components/ui/ClientsMarquee'
-import ExplainerCircles from '@/components/ui/ExplainerCircles'
+import Hero from "@/components/hero";
+import HeroPrime from "@/components/HeroPrime";
+import Clients from "@/components/clients";
+import Explainer from "@/components/explainer";
+import Features01 from "@/components/features-01";
+import Features02 from "@/components/features-02";
+import FeaturesPrim from "@/components/featuresPrim";
+import Services from "@/components/services";
+import Pricing from "@/components/pricing";
+import Testimonial from "@/components/testimonial";
+import Faqs from "@/components/faqs";
+import Cta from "@/components/cta";
+import {
+  ContainerScroll,
+  Card,
+} from "@/components/ui/container-scroll-animation";
+import { StickyScroll } from "@/components/ui/StickyScroll";
+import Hero60 from "@/components/Hero60";
+import ClientsMarquee from "@/components/ui/ClientsMarquee";
+import ExplainerCircles from "@/components/ui/ExplainerCircles";
 
 export default function Home() {
   const stickyContent = [
     {
       title: "Section 1",
       description: "This is the description for section 1.",
-      content: <div>This is the content for section 1</div>
+      content: <div>This is the content for section 1</div>,
     },
     {
       title: "Section 2",
       description: "This is the description for section 2.",
-      content: <div>This is the content for section 2</div>
+      content: <div>This is the content for section 2</div>,
     },
     {
       title: "Section 1",
       description: "This is the description for section 1.",
-      content: <div>This is the content for section 1</div>
+      content: <div>This is the content for section 1</div>,
     },
     {
       title: "Section 2",
       description: "This is the description for section 2.",
-      content: <div>This is the content for section 2</div>
-    }
+      content: <div>This is the content for section 2</div>,
+    },
   ];
   return (
     <>
@@ -50,7 +53,7 @@ export default function Home() {
       {/* <HeroPrime /> */}
       {/* <Hero /> */}
       {/* <FeaturesPrim /> */}
-      <Clients />
+
       {/* <ClientsMarquee /> */}
       {/* <Explainer /> */}
       {/* <ExplainerCircles /> */}
@@ -77,6 +80,7 @@ export default function Home() {
       </StickyScroll> */}
       {/* <Features02 /> */}
       <Services />
+      <Clients />
       {/* <ClientsMarquee /> */}
       {/* <Pricing /> */}
       {/* <Testimonial /> */}
@@ -84,5 +88,5 @@ export default function Home() {
       {/* <Faqs /> */}
       {/* <Cta /> */}
     </>
-  )
+  );
 }
