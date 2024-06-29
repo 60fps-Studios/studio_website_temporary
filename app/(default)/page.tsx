@@ -1,9 +1,6 @@
 export const metadata = {
   title: "60fps Studio",
-  description: "Home Page of 60fps"
-
-
-  ,
+  description: "Home Page of 60fps",
 };
 
 import Hero from "@/components/hero";
@@ -59,7 +56,6 @@ export default function Home() {
 
       {/* <ClientsMarquee /> */}
       {/* <Explainer /> */}
-      <ExplainerCircles />
       {/* <Features01 /> */}
       {/* <ContainerScroll titleComponent={<div className='text-5xl font-bold mb-12 font-poppins' >Welcome to Our Page</div>} >
 
@@ -83,6 +79,8 @@ export default function Home() {
       </StickyScroll> */}
       {/* <Features02 /> */}
       <Services />
+      <ExplainerCircles />
+
       <Clients />
       {/* <ClientsMarquee /> */}
       {/* <Pricing /> */}

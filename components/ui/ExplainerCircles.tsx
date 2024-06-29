@@ -11,7 +11,7 @@ export default function ExplainerCircles() {
 
   return (
     <section>
-      <div className="max-w-9xl mx-auto px-4 sm:px-6 font-poppins min-h-screen">
+      <div className="max-w-9xl mx-auto px-4 sm:px-6 font-poppins h-full">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-6xl mx-auto text-center ">

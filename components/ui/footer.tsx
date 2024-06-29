@@ -11,13 +11,13 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className=" h-full relative max-h-[40%]">
+    <footer className=" h-full relative max-h-[40%] ">
       {/* Bg */}
       <div className="absolute inset-0 bg-black -z-10" aria-hidden="true" />
 
       <div className="max-w-6xl lg:max-w-none mx-auto px-4 sm:px-6">
         {/* Blocks */}
-        <div className="grid sm:grid-cols-12 lg:grid-cols-10 gap-8 py-8 border-t border-blue-500 lg:ml-72">
+        <div className="grid sm:grid-cols-12 lg:grid-cols-10 gap-8 py-8  lg:ml-72">
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
             {/* Logo */}
