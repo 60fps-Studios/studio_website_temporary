@@ -116,15 +116,6 @@ export default function Services() {
                   </div>
                 </a>
               </div>
-
-              <h3 className="grow text-left">
-                <a
-                  className="font-Poppins font-bold lg:text-3xl md:text-2xl text-xl text-gray-100 hover:text-blue-500 transition duration-150 ease-in-out"
-                  href="#0"
-                >
-                  System Design
-                </a>
-              </h3>
             </div>
           </div>
         </div>
