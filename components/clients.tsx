@@ -131,7 +131,7 @@ export default function Clients() {
             </div>
             <div className="swiper-slide !h-32 !w-32 bg-gray-800 rounded-2xl flex items-center justify-center group">
               <Image
-                className="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out h-full w-full overflow-hidden object-cover rounded-2xl h-full w-full overflow-hidden"
+                className="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out h-full w-full overflow-hidden object-cover rounded-2xl "
                 src={Client12}
                 alt="Client 12"
               />
