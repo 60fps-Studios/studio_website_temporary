@@ -43,7 +43,7 @@ export default function ExplainerCircles() {
             </span>
             {/* Inner Circles */}
             <OrbitingCircles
-              className="h-[30px] w-[30px] border-none bg-transparent"
+              className="size-[30px]  border-none bg-transparent"
               duration={20}
               delay={20}
               radius={80}
@@ -51,7 +51,7 @@ export default function ExplainerCircles() {
               <Icons.cretivecloud />
             </OrbitingCircles>
             <OrbitingCircles
-              className="h-[30px] w-[30px] border-none bg-transparent"
+              className="size-[30px]  border-none bg-transparent"
               duration={20}
               delay={10}
               radius={80}
@@ -61,7 +61,7 @@ export default function ExplainerCircles() {
 
             {/* Outer Circles (reverse) */}
             <OrbitingCircles
-              className="h-[50px] w-[50px] border-none bg-transparent"
+              className="size-[50px]  border-none bg-transparent"
               radius={190}
               duration={20}
               reverse
@@ -69,7 +69,7 @@ export default function ExplainerCircles() {
               <Icons.unreal />
             </OrbitingCircles>
             <OrbitingCircles
-              className="h-[50px] w-[50px] border-none bg-transparent"
+              className="size-[50px]  border-none bg-transparent"
               radius={190}
               duration={20}
               delay={20}
